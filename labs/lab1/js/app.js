@@ -1,5 +1,6 @@
 function setup() {
-    var red = "#FF0000"
+    var black = "#000000"
+    var dark = "#4f320a"
 
     createCanvas(800,600);
     noStroke();
@@ -14,11 +15,11 @@ function setup() {
     ellipse(160, 300, 35, 200);
 
 //back legs (left)
-    fill(79, 50, 10);
+    fill(dark);
     ellipse(200, 500, 55, 200);
 
 //back legs (right)
-    fill(79, 50, 10);
+    fill(dark);
     ellipse(515, 500, 55, 200);
 
 //front legs (left)
@@ -34,7 +35,7 @@ function setup() {
     ellipse(350, 400, 400, 135);    //red
 
 //ears (right)
-    fill(0, 0, 0);
+    fill(black);
     ellipse(575, 300, 40, 175);
 
 //head shadow
@@ -45,7 +46,7 @@ function setup() {
     circle( 525, 255, 70);
 
 //ears (left)
-    fill(0, 0, 0);
+    fill(black);
     ellipse(470, 300, 40, 175)
 
 //snout
