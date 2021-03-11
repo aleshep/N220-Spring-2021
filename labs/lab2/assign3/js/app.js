@@ -8,6 +8,10 @@ function setup() {
 }
 
 function draw() {
+	drawBall();
+}
+
+function drawBall() {
 	background(0);
 	ellipse(xPos, yPos, 50, 50);
 	xPos += xSpeed;
